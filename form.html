@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intellect Masters | Student Details</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/form.css" />
+</head>
+<body>
+  <div id="preloader"></div>
+    <button id="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <header>
+        <nav>
+            <a href="#form" id="logo">Intellect Masters</a>
+            <i class="fas fa-bars" id="ham-menu"></i>
+            <ul id="nav-bar">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="features.html">Features</a>
+                </li>
+                <li>
+                    <a href="cources.html">Courses</a>
+                </li>
+                <li>
+                    <a href="testimonial.html">Testimonial</a>
+                </li>
+                <li>
+                  <a href="staff.html">Staff</a>
+                </li>
+                <li>
+                    <a href="app.html">App</a>
+                </li>
+                <li>
+                    <a href="contact-us.html">Contact-us</a>
+                  </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero" id="home">
+        <img src="assets/images/header-shape.svg" id="header-shape" />
+        <div class="hero-content">
+            <h1>Student Information Form</h1>
+            <p>
+                
+            </p>
+            <div class="btn-container">
+                <button class="primary-btn btn">Student-details Form</button>
+                <button class="secondary-btn btn"><a href="#student-details">Explore More</a></button>
+            </div>
+        </div>
+        <div class="hero-img">
+          <img src="assets/images/hero-image.svg" />
+        </div>
+      </section>
+    
+    <section class="student-details" id="student-details">
+        <h2>Student Details</h2>
+        <p class="section-desc">
+            Please fill in your details to start your learning journey with Intellect Masters.
+        </p>
+        <form id="student-form" action="process_form.php" method="post">
+            <div class="form-group">
+              <label for="first_name">First Name:</label>
+              <input type="text" id="first_name" name="first_name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for "middle_name">Middle Name:</label>
+              <input type="text" id="middle_name" name="middle_name">
+            </div>
+            
+            <div class="form-group">
+              <label for="last_name">Last Name:</label>
+              <input type="text" id="last_name" name="last_name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="contact">Contact No.:</label>
+                <input type="tel" id="contact" name="contact" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="gender">Gender:</label>
+              <select id="gender" name="gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="Passportphoto">Attach Your Latest Passport size photo:</label>
+                <div class="col-md-6 my-3">
+                    <div class="input-group">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input">
+                            <label class="custom-file-label"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="course">Course:</label>
+                <select id="course" name="course" required>
+                    <option value="Photography">Photography</option>
+                    <option value="Public Speaking">Public Speaking</option>
+                    <option value="Typing">Typing</option>
+                    <option value="Web Development Essentials">Web Development Essentials</option>
+                    <option value="Graphic Design for Beginners">Graphic Design for Beginners</option>
+                    <option value="Digital Marketing Strategies">Digital Marketing Strategies</option>
+                    <option value="Data Science Fundamentals">Data Science Fundamentals</option>
+                    <option value="Creative Writing Workshop">Creative Writing Workshop</option>
+                    <option value="Financial Planning and Budgeting">Financial Planning and Budgeting</option>
+                    <option value="Business Management Basics">Business Management Basics</option>
+                    <option value="Advanced Java Programming">Advanced Java Programming</option>
+                    <option value="Yoga and Mindfulness">Yoga and Mindfulness</option>
+                    <option value="Introduction to Artificial Intelligence">Introduction to Artificial Intelligence</option>
+                    <option value="Culinary Arts and Cooking Techniques">Culinary Arts and Cooking Techniques</option>
+                    <option value="Mobile App Development">Mobile App Development</option>
+                    <option value="Music Theory and Composition">Music Theory and Composition</option>
+                    <option value="Introduction to Psychology">Introduction to Psychology</option>
+                    <option value="Fashion Design and Styling">Fashion Design and Styling</option>
+                    <option value="Entrepreneurship and Startups">Entrepreneurship and Startups</option>
+                    <option value="Environmental Sustainability">Environmental Sustainability</option>
+                    <option value="UX/UI Design Principles">UX/UI Design Principles</option>
+                    <option value="3D Animation and Modeling">3D Animation and Modeling</option>
+                    <option value="Interior Design and Space Planning">Interior Design and Space Planning</option>
+                    <option value="History of Ancient Civilizations">History of Ancient Civilizations</option>
+                    <option value="Game Development with Unity">Game Development with Unity</option>
+                    <option value="Cybersecurity Fundamentals">Cybersecurity Fundamentals</option>
+                    <option value="Digital Marketing Strategies">Digital Marketing Strategies</option>
+                    <option value="Graphic Design for Beginners">Graphic Design for Beginners</option>
+                </select>
+            </div>
+            
+            <button class="primary-btn btn" type="submit">Start Learning</button>
+        </form>
+    
+        <div id="success-message" style="display: none;">
+            <p>Form has been successfully submitted.</p>
+        </div>
+    </section>
+    
+    <footer class="footer-container">
+        <div class="footer-about">
+            <h3>Intellect Masters</h3>
+            <p>
+              Intellect Masters is your gateway to unlocking the full potential of your mind. We're a dynamic and innovative study company committed to empowering individuals to become true masters of knowledge, learning, and intellectual growth. Our carefully crafted programs and passionate educators will guide you on a journey to harness your intelligence, ignite your curiosity, and excel in your educational endeavors. Join our community of learners, and let's embark on a quest to conquer the world of knowledge together.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <div class="column">
+              <h4>Quick Links</h4>
+              <ul class="quick-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Our Features</a></li>
+                <li><a href="cources.html">Courses</a></li>   
+                <li><a href="#form">Application Form</a></li>
+                <li><a href="testimonial.html">Testimonials</a></li>
+                <li><a href="staff.html">Staff-Information</a></li>
+                <li><a href="app.html">Download-app</a></li>
+                <li><a href="contact-us.html">Contact-us</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <h4>Contact</h4>
+              <p>Phone: +91 (760)-0498107</p>
+            <p>Phone: +91 (931)-6890367</p>
+            <p>Phone: +91 (786)-1097967</p>
+            <p>Phone: +91 (799)-0701601</p>
+            <p class="p2"> 📌 Surat, Gujarat, India </p>
+              <p>Email: theboysofce@gmail.com</p>
+            </div>
+          </div>
+    </footer>
+    
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+      document.getElementById("student-form").addEventListener("submit", function (event) {
+          event.preventDefault();
+  
+          var confirmation = window.confirm("Do you want to finally submit the form?");
+  
+          if (confirmation) {
+              showSuccessMessage();
+  
+              resetForm();
+          } else {
+              console.log("Form submission canceled.");
+          }
+      });
+  
+      function showSuccessMessage() {
+          document.getElementById("success-message").style.display = "block";
+      }
+  
+      function resetForm() {
+          document.getElementById("student-form").reset();
+      }
+  </script>
+  
+  <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load",function(){
+      loader.style.display = "none";
+    })
+  </script>
+  
+</body>
+</html>

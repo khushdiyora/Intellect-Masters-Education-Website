@@ -1,0 +1,104 @@
+/* Reset default margin and padding */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the dashboard header */
+.dashboard-header {
+    background: #007BFF;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dashboard-header .logo img {
+    width: 100px; /* Adjust the logo width as needed */
+}
+
+.dashboard-header .user-info {
+    text-align: right;
+}
+
+.dashboard-header .user-info p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dashboard-header .user-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the dashboard content */
+.dashboard-content {
+    padding: 20px;
+}
+
+.dashboard-content h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.widget {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.widget h2 {
+    font-size: 20px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.widget ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Style the navigation sidebar */
+.sidebar {
+    width: 200px;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Add hover effect for sidebar links */
+.sidebar a:hover {
+    text-decoration: underline;
+}
+#preloader{
+    background: #000 url(preloader.gif) no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }

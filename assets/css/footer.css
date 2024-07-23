@@ -1,0 +1,154 @@
+footer {
+    background-color: var(--black-shade-1);
+  }
+  footer h3 {
+    margin: 0;
+  }
+  footer h3,
+  footer h4 {
+    color: var(--white-shade-1);
+    text-align: center;
+  }
+  footer .row {
+    margin-bottom: 6rem;
+  }
+  .footer-about {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 2px solid var(--white-shade-1);
+  }
+  .social-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+  .social-links a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: var(--white-shade-1);
+  }
+  footer p {
+    text-align: center;
+  }
+  
+  /*------ Scroll Top Button ------*/
+  #scroll-top {
+    position: fixed;
+    display: none;
+    place-items: center;
+    height: 5rem;
+    width: 5rem;
+    right: 3rem;
+    bottom: 3rem;
+    background-color: var(--base-shade-1);
+    color: var(--white-shade-1);
+    border: none;
+    outline: none;
+    font-size: var(--heading-font-size-3);
+    border-radius: var(--border-radius-2);
+    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.2);
+  }
+  /* Add these CSS styles to improve the footer appearance */
+  /* Add these CSS styles to remove the underline from the link */
+  .primary-btn.btn a {
+    text-decoration: none;
+    color: inherit; /* Optionally, set the link color to inherit from the button */
+  }
+  
+  .footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-about {
+    flex: 1;
+  }
+  
+  .footer-about h3 {
+    font-size: 24px;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .footer-contact {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .quick-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quick-links li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-contact h4 {
+    font-size: 20px;
+  }
+  
+  .footer-contact p {
+    margin: 5px 0;
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+  }
+  /* Add these CSS styles to modify the appearance of quick links */
+  
+  .quick-links a {
+    text-decoration: none;
+    font-size: 18px; /* Increase the font size */
+    color: #71706f; /* Change the link color to your desired color */
+    font-weight: bold; /* Make the font bold */
+    font-family: 'Poppins', sans-serif; /* Set your desired font family */
+    transition: color 0.3s; /* Add a smooth color transition */
+  }
+  
+  .quick-links a:hover {
+    color: #e3dede; /* Change the link color on hover */
+  }
+  
+    .staff-member {
+      text-align: center;
+      margin: 20px;
+    }
+  
+    .staff-member img {
+      border-radius: 50%; /* Makes the image circular */
+      width: 150px; /* Adjust the size as needed */
+      height: 150px;
+      border: 4px solid #007bff; /* Add a border with your desired color */
+    }
+  
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+    .form-group label {
+      margin-bottom: 5px;
+    }
+    .form-group input {
+      padding: 5px;
+    }
+    

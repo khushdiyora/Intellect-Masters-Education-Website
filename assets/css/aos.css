@@ -1,0 +1,11 @@
+/* Define custom styles for AOS animations */
+[data-aos="fade-up"] {
+  transition: opacity 0.8s, transform 0.8s;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+[data-aos="fade-up"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}

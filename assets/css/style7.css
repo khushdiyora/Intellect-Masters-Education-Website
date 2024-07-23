@@ -1,0 +1,70 @@
+.contdata {
+    position: relative;
+}
+
+.contdata::before {
+    content: "";
+    background: url(contact.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.contact #cintro {
+    text-align: center;
+    font-size: 55px;
+    margin: 18px;
+}
+
+.contact #csum1,
+#csum2 {
+    text-align: center;
+    font-size: 18px;
+    margin: 18px;
+    color: #8d0003;
+}
+
+.contact #csum2 {
+    font-size: 15px;
+    padding-bottom: 12px;
+}
+
+.contdata {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.contdata #form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 22px;
+    margin-top: 52px;
+}
+
+form input {
+    margin: 4px;
+    padding: 4px;
+}
+
+.cdesc {
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.contdata .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.contdata form div {
+    padding: 4.5px;
+}

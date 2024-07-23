@@ -1,0 +1,27 @@
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="contact"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="contact"] {
+    
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intellect Masters | Student Dashboard</title>
+    <link rel="stylesheet" href="assets/css/dashboard-styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+   <link rel="stylesheet" href="assets/css/queries.css" />
+   <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+       #preloader{
+    background: #000 url(preloader.gif) no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+    </style>
+</head>
+<body>
+  <div id="preloader"></div>
+    <header class="dashboard-header">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Intellect Masters Logo">
+        </div>
+        <div class="user-info">
+            <p>Welcome,Mr.Aryan Dhameliya</p>
+            <a href="login.html">Logout</a>
+        </div>
+    </header>
+
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#student-dashboard">Dashboard</a></li>
+                <li><a href="your-cources.html">Courses</a></li>
+                <li><a href="assignments.html">Assignments</a></li>
+               
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </aside>
+
+        <main class="dashboard-content">
+            <div class="welcome-message">
+                <h1>Welcome, Mr. Aryan Dhameliya! To Your Dashboard</h1>
+                <p>We are thrilled to have you on Intellect Masters' Photography Course Dashboard. Your journey to mastery begins here!</p>
+                <div class="user-details">
+                    <p><strong>User Details:</strong></p>
+                    <ul>
+                        <li><strong>Name:</strong> Mr. Dhameliya Aryan Mansukhbhai</li>
+                        <li><strong>Username:</strong> photomaster_aryan3012</li>
+                        <li><strong>Email:</strong> dhameliyaaryan3012@gmail.com</li>
+                        <li><strong>Course Enrolled:</strong> Photography Mastery</li>
+                    </ul>
+                </div>
+                <div class="course-progress">
+                    <p><strong>Course Progress:</strong></p>
+                    <h2></h2>
+    <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:53%">53%</div>
+    </div>
+    </div>
+                </div>
+                <p>Start exploring your assignments and honing your photography skills. Feel free to reach out if you have any questions or need assistance.</p>
+            </div>
+        
+    </div>
+    <footer class="footer-container">
+        <div class="footer-about">
+          <h3>Intellect Masters</h3>
+          <p>
+            Intellect Masters is your gateway to unlocking the full potential of your mind. We're a dynamic and innovative study company committed to empowering individuals to become true masters of knowledge, learning, and intellectual growth. Our carefully crafted programs and passionate educators will guide you on a journey to harness your intelligence, ignite your curiosity, and excel in your educational endeavors. Join our community of learners, and let's embark on a quest to conquer the world of knowledge together.
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <div class="column">
+            <h4>Quick Links</h4>
+            <br>
+            <ul class="quick-links">
+                <li><a href="#student-dashboard">Dashboard</a></li>
+                <li><a href="your-cources.html">Courses</a></li>
+                <li><a href="assignments.html">Assignments</a></li>
+                <li><a href="profile.html">Profile</a></li>
+              <li><a href="contact-us.html">Contact-us</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <h4>Contact</h4>
+            <br>
+            <p>Phone: +91 (760)-0498107</p>
+            <p>Phone: +91 (931)-6890367</p>
+            <p>Phone: +91 (786)-1097967</p>
+            <p>Phone: +91 (799)-0701601</p>
+            <p class="p2"> 📌 Surat, Gujarat, India </p>
+            <p>Email: theboysofce@gmail.com</p>
+          </div>
+        </div>
+      </footer>
+         <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load",function(){
+        loader.style.display = "none";
+      })
+    </script>
+</body>
+</html>
